@@ -1,0 +1,21 @@
+[project]
+name = "chatbox"
+version = "0.1.0"
+description = "A chatbox application"
+authors = [
+    { name="Alexandre Pimont", email="alexandrepenha.geologia@gmail.com" }
+]
+dependencies = [
+    "flask",
+    "openai",
+    "python-dotenv",
+    "langchain-community",
+    "pypdf",
+    "sentence-transformers",
+    "faiss-cpu",
+    "langchain-ollama"
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
