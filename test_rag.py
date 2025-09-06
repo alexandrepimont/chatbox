@@ -9,10 +9,10 @@ Actual Response: {actual_response}
 """
 
 
-def test_monopoly_rules():
+def test_namibia_exploration_wells():
     assert query_and_validate(
-        question="How much total money does a player start with in Monopoly? (Answer with the number only)",
-        expected_response="$1500",
+        question="How many exploration wells were drilled offshore Namibia Basin?",
+        expected_response="2 Exploration Wells",
     )
 
 

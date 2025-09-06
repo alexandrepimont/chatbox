@@ -1,7 +1,7 @@
 
 # Chatbox
 
-A simple chatbox application.
+A simple chatbox application. Generated with help from @pixegami 
 
 ## Features
 - Real-time messaging
