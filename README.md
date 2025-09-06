@@ -1,7 +1,7 @@
 
 # Chatbox
 
-A simple chatbox application.
+A simple chatbox application
 
 ## Features
 - Real-time messaging
