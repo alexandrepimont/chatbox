@@ -6,14 +6,16 @@ authors = [
     { name="Alexandre Pimont", email="alexandrepenha.geologia@gmail.com" }
 ]
 dependencies = [
-    "flask",
-    "openai",
-    "python-dotenv",
-    "langchain-community",
-    "pypdf",
-    "sentence-transformers",
-    "faiss-cpu",
-    "langchain-ollama"
+    "flask==2.2.5",
+    "python-dotenv==1.1.1",
+    "langchain-community==0.3.29",
+    "ollama==0.5.3,
+    "pypdf==6.0.0",
+    "sentence-transformers==2.2.2",
+    "faiss-cpu==1.12.0",
+    "langchain-ollama==0.3.7",
+    "chromadb==1.0.20",
+    "django==5.2.6,
 ]
 
 [build-system]
