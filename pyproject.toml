@@ -14,7 +14,8 @@ dependencies = [
     "sentence-transformers==2.2.2",
     "faiss-cpu==1.12.0",
     "langchain-ollama==0.3.7",
-    "chromadb==1.0.20"
+    "chromadb==1.0.20",
+    "django==5.2.6,
 ]
 
 [build-system]
